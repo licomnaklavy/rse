@@ -1,0 +1,37 @@
+.button {
+    width:1000px;
+    height:100px;
+    font-size:20px;
+}
+
+table {
+    width: 650px;
+    border-top: 7px solid rgb(00, 00, 00);
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+}
+
+td {
+    text-align: left;
+    padding: 10px;
+    border: 3px solid rgb(00, 00, 00);
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid rgb(00, 00, 00);
+}
+
+.imgbox {
+    padding: 10px;
+    display: grid;
+    width: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
