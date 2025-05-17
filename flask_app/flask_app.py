@@ -28,7 +28,7 @@ class Flask_app:
 
             result_path = ''
             for i in paths_to_images:
-                result_path += f'<img class="imgbox center-fit" src="{path_to_dir + i}" alt="КАРТИНКА">'
+                result_path += f'<img class="imgbox center-fit" src="{path_to_dir + i}" alt="{i}">'
 
             return render_template('satellite_images.html', img_list=result_path)
 
@@ -43,7 +43,7 @@ class Flask_app:
 
             result_path = ''
             for i in paths_to_images:
-                result_path += f'<img class="imgbox center-fit" src="{path_to_dir + i}" alt="КАРТИНКА">'
+                result_path += f'<img class="imgbox center-fit" src="{path_to_dir + i}" alt="{i}">'
 
             return render_template('radar_images.html', img_list=result_path)
 
